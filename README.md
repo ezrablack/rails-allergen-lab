@@ -13,18 +13,18 @@ In this project, we will be practicing object relationships in Rails. We will be
 
 ### `Recipe`
 
-- `index`––show all recipe instances
-- `new`––ability to create a new recipe and associate it with a particular user. You may want to look into [collection select](http://api.rubyonrails.org/v5.2.0/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_select)
+DONE- `index`––show all recipe instances
+DONE- `new`––ability to create a new recipe and associate it with a particular user. You may want to look into [collection select](http://api.rubyonrails.org/v5.2.0/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_select)
 
 ### `User`
 
-- `show` page for a user. This should include all of the recipes that a user has authored.
-- The ability to delete a user
+DONE- `show` page for a user. This should include all of the recipes that a user has authored.
+DONE- The ability to delete a user
 
 ### `Ingredient`
 
-- `index` should show all ingredients
-- `show` a particular ingredient. I should be able to see all of the recipes that an ingredient appears in.
+DONE- `index` should show all ingredients
+DONE- `show` a particular ingredient. I should be able to see all of the recipes that an ingredient appears in.
 
 ### `**Bonus**`
 - In the Ingredient `index`, sort the ingredients by the number of users allergic to it. For example, if several users are allergic to peanut butter, it should appear higher on the list. You might want to look into [ActiveRecord Query Methods]
